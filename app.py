@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to the default route!"
+    return "Welcome to PAL-AI model api server!"
    
 @app.route('/predict')
 def predict():
