@@ -8,7 +8,6 @@ from ultralytics import YOLO
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
-app.run(host='0.0.0.0', port=5000)
 
 # Load YOLO model
 model_path = os.path.join(os.path.dirname(__file__), 'pal-ai-model', 'palai_model.pt')
